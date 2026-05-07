@@ -1,6 +1,5 @@
 plugins {
     id("com.android.application")
-
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
@@ -54,4 +53,5 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.4.0")
     implementation("androidx.compose.material:material-icons-extended:1.7.8")
     implementation("androidx.activity:activity-compose:1.13.0")
+    implementation("io.coil-kt:coil-compose:2.6.0")
 }
